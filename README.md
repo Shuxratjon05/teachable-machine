@@ -1,0 +1,23 @@
+import numpy as np  
+
+# 1. Massiv yaratish  
+array_1d = np.array([1, 2, 3, 4, 5])  
+array_2d = np.array([[1, 2, 3], [4, 5, 6]])  
+
+# 2. Matematik operatsiyalar  
+sum_array = np.sum(array_1d)  
+mean_array = np.mean(array_1d)  
+product_array = np.prod(array_1d)  
+
+print("1D Massiv: ", array_1d)  
+print("2D Massiv:\n", array_2d)  
+print("Massivlar yig'indisi: ", sum_array)  
+print("O'rtacha: ", mean_array)  
+print("Ko'paytma: ", product_array)
+1D Massiv:  [1 2 3 4 5]
+2D Massiv:
+ [[1 2 3]
+ [4 5 6]]
+Massivlar yig'indisi:  15
+O'rtacha:  3.0
+Ko'paytma:  120
